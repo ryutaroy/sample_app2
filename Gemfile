@@ -12,7 +12,7 @@ gem 'rake', '0.8.7'
 gem "ZenTest"
 gem "autotest-rails-pure"
 gem "autotest-growl"
-#gem "autotest-fsevent"
+gem "autotest-fsevent"
 
 group :development do
   gem 'rspec-rails', '2.6.1'
