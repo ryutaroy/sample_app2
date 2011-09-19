@@ -9,11 +9,6 @@ gem 'sqlite3', '1.3.3'
 
 gem 'rake', '0.8.7'
 
-gem "ZenTest"
-gem "autotest-rails-pure"
-gem "autotest-growl"
-gem "autotest-fsevent"
-
 group :development do
   gem 'rspec-rails', '2.6.1'
 end
@@ -21,6 +16,10 @@ end
 group :test do
   gem 'rspec-rails', '2.6.1'
   gem 'webrat', '0.7.1'
+  gem "ZenTest"
+  gem "autotest-rails-pure"
+  gem "autotest-growl"
+  gem "autotest-fsevent"
   gem 'spork', '0.9.0.rc8'
 end
 
